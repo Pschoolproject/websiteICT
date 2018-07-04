@@ -1,10 +1,10 @@
 .active {
-	background-color: #403075;
+	background-color: #7FFFD4;
 	color: #887CAF;
 }
 body{
-	background-color: #403075;
-	background-image: url("html.jpg");
+	background-color: #f5f5dc;
+	background-image: url("https://www.artlist.nl/wp-content/uploads/2016/12/F0016-xxx-1200x1000.jpg");
 	background-repeat: repeat-y;
 	background-attachment: fixed;
 	font-family: verdana;
