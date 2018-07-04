@@ -1,160 +1,77 @@
 .active {
-    background-color: #1188cc;
-    color: #fff;    
+	background-color: #403075;
+	color: #887CAF;
 }
-
-body {
-    background-color: #1188cc;
-    font-family:Times New Roman;
-    font-size: 20px;
-	margin: 0;    
+body{
+	background-color: #403075;
+	background-image: url("html.jpg");
+	background-repeat: repeat-y;
+	background-attachment: fixed;
+	font-family: verdana;
+	font-size: 15px;
+	margin: 0px;
 }
-
 #breadcrumbs {
-    padding: 15px;
+	display: none;
 }
-
-#breadcrumbs a {
-    color: #1188cc;
-    text-decoration: none;
+.class #down{
+	font
 }
-
-#breadcrumbs a:hover {
-    text-decoration: underline;
+#container{
+	background-color: white;
+	width: 1250px;
+	margin: 0 auto;
 }
-
-.centertag {
-    margin: 0 auto;
+#content{
+	padding: 15px;
+	height: 1500px;
+	
+	
 }
-
-#container {
-    background-color: #FFE4C4;
-    margin: 0 auto;
-    width: 1200px;
-}
-
-#content {
-    padding: 15px;
-}
-
-#header {
-    font-size: 4em;
-    padding: 10px 0px;    
-    text-align: center;
-}
-
 #footer {
-    background-color: #000;
-    color: #fff;
-    padding: 10px;
+	background-color: #14083C;
+	font-variant: small-caps;
 }
-
-#footer a {
-    color: #fff;
-    text-decoration: underline;
+#footer a{
+	color: #887CAF;
+	text-decoration: underline;
+	font-variant: small-caps;
 }
-
-#footer a:hover {
-    text-decoration: none;
+#footer a:hover{
+	text-decoration: none;
 }
-
-.formbuttons {
-    margin-top: 15px;
+h1 .border{
+	color: #14083C;
+	width: 3px;
+	display: show;
 }
-
-#header a {
-    color: #1188cc;
-    font-variant: small-caps;
-    text-decoration: none;
+h3{
+	font-weight: bold;
 }
-
-#header a:hover {
-    color: #000;
+#header{
+	text-align: center;
 }
-
-#headersubtext {
-    font-size: 0.5em;
+#header  a {
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 45px;
 }
-
-#headersubtext a {
-    color: #1188cc;
-    text-decoration: none;
+#menu{
+	background-color: #887CAF;
+	color: #14083C;
 }
-
-input[type=button],
-input[type=submit],
-input[type=reset] {
-    background-color: #1188cc;
-    border-color: #1188cc;
-    color: #fff;;
-    font-family: verdana;
-    font-size: 1.1em;
+#menu a {
+	color: #14083C;
+	text-decoration: none;
+	padding: 15px 20px;
 }
-
-input[type=email],
-input[type=password],
-input[type=text],
-select {
-    background-color: #fff;
-    border-color: #000; 
-    color: #000;
-    font-family: verdana;
-    font-size: 1.1em;
-    margin: 0.1em;
-    padding-left: 0.2em;
+#menu a:hover{
+	background-color: #605092;
+	color: #271858;
 }
-
-label {
-    padding-right: 10px;
+p{
+	text-indent: 30px;
 }
-
-#menu {
-    background-color: #000;
-}
-
-.menuitem a {
-    color: #fff;
-    display: block;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.menuitem a:hover {
-    background-color: #1188cc;
-    color: #fff;
-}
-
-table, td, tr {
+table, tr, td{
 	border-collapse: collapse;
-    padding: 0;
-}
-
-td {
-    height: 1.8em;
-}
-
-.textcenter {
-    text-align: center;
-}
-
-#topmenu {
-    background-color: #000;
-    color: #fff;
-    font-size: 0.8em;
-    padding: 5px;
-    text-align: right;
-}
-
-.topmenuitem a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.topmenuitem a:hover {
-    text-decoration: underline;
-}
-
-.overview td, .overview th {
-    padding: 0px 10px;
-    text-align: left;
 }
